@@ -1,0 +1,197 @@
+body{
+    font-family: 'Microsoft YaHei', sans-serif;
+}
+.fusang-icon{
+    background:rgb(245,150,170);
+    color:white;
+    border-radius: 50%;
+    width:40px;
+    height:40px;
+    text-align:center;
+    line-height: 40px;
+    margin-right: 20px;
+}
+.navbar-default{
+    background-color: #fff;
+    border: none;
+    box-shadow: 0px 2px 8px 0px rgba(50,50,50,0.25);
+}
+.navbar-default .navbar-brand {
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(245,150,170);
+    height: 70px;
+    line-height: 35px;
+}
+.navbar-default .navbar-nav>li>a {
+    font-size: 16px;
+    font-weight: bold;
+    color: #666;
+    height: 70px;
+    line-height: 35px;
+}
+.navbar-toggle{
+    margin-top: 17px;
+}
+.navbar-default .navbar-toggle:hover {
+    border-color:  rgb(245,150,170);
+    background-color: rgb(245,150,170);
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color:  rgb(245,150,170);
+}
+/*home*/
+#home{
+    margin-top: 70px;
+    background: url("../img/yinghua_bg.jpg");
+    background-size: cover;
+    color: #ffffff;
+    text-align: center;
+    width: 100%;
+}
+.lvjing{
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.7);
+    padding: 90px 0;
+}
+#home h1{
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+#home p{
+    font-weight: 400;
+    line-height: 25px;
+}
+#home img{
+    margin-top: 20px;
+    display: inline-block;
+}
+#contact{
+    background: url("../img/ditu.png");
+    background-size: cover;
+    color: #fff;
+}
+#contact h2{
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+#contact p{
+    line-height: 25px;
+    margin-bottom: 10px;
+}
+
+
+/*footer*/
+footer{
+    font-weight: 400;
+    text-align: center;
+    padding:20px ;
+}
+/*html5*/
+#html5{
+    margin-top:60px;
+}
+#html{
+    margin-top:40px;
+    background:#f8f8f8;
+    padding:60px 0;
+}
+#html h2{
+    font-weight:bold;
+}
+#html p{
+    line-height:40px;
+}
+/*日本动漫*/
+#Comic{
+    background: #f8f8f8;
+    padding: 80px 0;
+    text-align: center;
+}
+#Comic h2{
+    font-weight: bold;
+    padding-bottom: 60px;
+}
+#Comic .col-md-3{
+    margin-bottom: 20px;
+}
+.course {
+    background: #ffffff;
+}
+#Comic .btn{
+    background: transparent;
+    border: 1px solid rgb(245,150,170);
+    border-radius: 0px;
+    color: rgb(245,150,170);
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding: 8px 40px;
+    transition: all 0.3s;
+}
+#Comic .btn:hover{
+    background: rgb(245,150,170);
+    color: #fff;
+}
+/*日语资源*/
+#japanese{
+    padding: 80px 0;
+}
+#japanese p{
+    text-align:center;
+}
+#japanese h2{
+    text-align:center;
+    font-weight: bold;
+    padding-bottom: 30px;
+}
+#japanese .btn{
+    margin: 10px 0;
+    background: rgb(245,150,170);
+    border-color: rgb(245,150,170);
+    border-radius: 0;
+    padding: 6px 30px;
+    transition: all 0.3s;
+}
+#japanese .btn:hover{
+    background: rgb(245,150,170);
+}
+/*日本文化*/
+#culture{
+    padding: 80px 0;
+}
+#culture h2{
+    text-align:center;
+    font-weight: bold;
+    padding-bottom: 30px;
+}
+#culture p{
+    text-align:center;
+}
+#culture .btn{
+    margin: 10px 0;
+    background: rgb(245,150,170);
+    border-color: rgb(245,150,170);
+    border-radius: 0;
+    padding: 6px 30px;
+    transition: all 0.3s;
+}
+#culture .btn:hover{
+    background: rgb(245,150,170);
+}
+#contact .form-control{
+    border:none;
+    border-radius: 0;
+    height:50px;
+    margin-bottom:20px;
+}
+#contact textarea.form-control{
+    height:auto;
+}
+#contact input[type="submit"] {
+    background: rgb(245, 150, 170);
+    color: #fff;
+    font-weight: bold;
+}
