@@ -195,3 +195,27 @@ footer{
     color: #fff;
     font-weight: bold;
 }
+#lishi h1{
+	font-weight: bold;
+    padding-bottom: 30px;
+	color:rgb(245,150,170);
+}
+#lishi{
+	padding: 80px 0;
+	text-indent:2em;
+}
+#lishi h2{
+	font-weight: bold;
+    padding-bottom: 30px;
+	color:rgb(245,150,170);
+}
+#lishi p{
+	line-height: 25px;
+	font-weight: 400;
+}
+#lishi .active{
+	background: rgb(245,150,170);
+}
+#lishi .list-group{
+	position:fixed;
+}
